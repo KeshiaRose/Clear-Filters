@@ -10,9 +10,9 @@ Download and install the Extensions API version of Tableau Desktop from the [Tab
 
 Current version: 18.0227.0818
 
-### Download and install the Dynamic Parameter manifest file
+### Download and install the Clear Filter manifest file
 
-Download the Dynamic Parameter [manifest file](https://keshiarose.github.io/Clear-Filters/ClearFilters.trex).
+Download the Clear Filter [manifest file](https://keshiarose.github.io/Clear-Filters/ClearFilters.trex) and save it wherever you want.
 
 # Using the Extension
 1.	Drag in a new Extension object to your dashboard
