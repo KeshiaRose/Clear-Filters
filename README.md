@@ -1,6 +1,6 @@
 # Clear Filters extension
 
-This extensions enables you to add a "clear all filters" button and/or a "reset all fitlers" button directly into your Tableau dashboard. Great for embedded dashboards that do not have the toolbar showing or for a mor intuitive interface
+This extensions enables you to add a "clear all filters" button and/or a "reset all fitlers" button directly into your Tableau dashboard. Great for embedded dashboards that do not have the toolbar showing or for a more intuitive interface
 
 # Installing the Extension
 
