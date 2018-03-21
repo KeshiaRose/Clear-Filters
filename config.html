@@ -20,26 +20,21 @@
 </head>
 
 <body class="body">
-    <div class="div-block">
-        <div class="container">
-            <h1 class="heading">Filter Reset</h1>
-            <div class="section">
-                <div class="form-block">
-                    <div><input type="checkbox" id="clearcheck" onclick="toggleClear()" />
-                        <label for="clearcheck">Show &quot;Clear all filters&quot; button</label>
-                    </div>
-                </div>
-            </div>
-            <div class="section">
-                <div class="form-block">
-                    <div><input type="checkbox" id="resetcheck" onclick="toggleReset()" />
-                        <label for="resetcheck">Show &quot;Reset all filters&quot; button</label>
-                    </div>
-                </div>
-                <div id="nodefaults"></div>
-                <button class="btn btn-light" id="setdefaults" onclick="setDefaults()">Set current filters as default</button>
-                <div id="setd">Settings updated.</div>
-            </div>
+    <div class="container">
+        <h1 class="heading">Filter Reset</h1>
+        <div class="section">
+            <input type="checkbox" id="clearcheck" onclick="toggleClear()" />
+            <label for="clearcheck">Show "Clear all filters" button</label>
+        </div>
+        <div class="section">
+            <input type="checkbox" id="resetcheck" onclick="toggleReset()" />
+            <label for="resetcheck">Show "Reset all filters" button</label>
+            <div id="nodefaults"></div>
+            <button class="btn btn-light" id="setdefaults" onclick="setDefaults()">Set current filters as default</button>
+            <div id="setd">Settings updated.</div>
+        </div>
+        <div class="footer">
+            <div>Background color: <input type="color" id="bg" value="#ffffff"></div>
             <button class="btn btn-primary btn-lg" onclick="submit()">Save</button>
         </div>
     </div>

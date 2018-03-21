@@ -16,7 +16,7 @@ $(document).ready(function() {
 // Pops open the configure page
 function configure(payload) {
     const popupUrl = `${window.location.origin}/Clear-Filters/config.html`
-    tableau.extensions.ui.displayDialogAsync(popupUrl, payload, { height: 400, width: 500 }).then((closePayload) => {
+    tableau.extensions.ui.displayDialogAsync(popupUrl, payload, { height: 350, width: 450 }).then((closePayload) => {
         console.log("Dialog was closed.");
         console.log(closePayload);
         show();
@@ -33,6 +33,7 @@ function configure(payload) {
 
 // Shows or hides buttons based on settings
 function show() {
+    document.body.style.backgroundColor = tableau.extensions.settings.get('bg');
     if (tableau.extensions.settings.get('showClear') == 'true') {
         document.getElementById('clearbutton').style.display = 'inline';
     } else {

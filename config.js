@@ -11,6 +11,9 @@ $(document).ready(function() {
 
 // Sets up correct options when config loads
 function load() {
+    if (tableau.extensions.settings.get('bg')) {
+        document.getElementById('bg').value = tableau.extensions.settings.get('bg');
+    }
     if (tableau.extensions.settings.get('showClear') == 'true') {
         document.getElementById('clearcheck').checked = true;
     }
@@ -114,6 +117,7 @@ function setDefaults() {
 // Closes config window
 function submit() {
     tableau.extensions.settings.set('configured', 'true');
+    tableau.extensions.settings.set('bg', document.getElementById('bg').value);
     tableau.extensions.settings.saveAsync().then(result => {
         tableau.extensions.ui.closeDialog('Settings saved.');
     });
