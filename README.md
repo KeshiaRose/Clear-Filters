@@ -10,7 +10,7 @@ Current version: 18.0227.0818
 
 Download the Clear Filter [manifest file](https://keshiarose.github.io/Clear-Filters/ClearFilters.trex) and save it wherever you want.
 
-# Using the Extension
+## Using the Extension
 1.	Drag in a new Extension object to your dashboard
 2.	Find the manifest (.trex) file you downloaded above
 3.  Choose if you want to show a "clear all filters" button and/or a "reset all fitlers" button
