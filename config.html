@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Filter Reset Configuration</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <script src="tableau-extensions-0.latest.js"></script>
+
+    <script src="config.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <div class="div-block">
+        <div class="container">
+            <h1 class="heading">Filter Reset</h1>
+            <div class="section">
+                <div class="form-block">
+                    <div><input type="checkbox" id="clearcheck" onclick="toggleClear()" />
+                        <label for="clearcheck">Show &quot;Clear all filters&quot; button</label>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="form-block">
+                    <div><input type="checkbox" id="resetcheck" onclick="toggleReset()" />
+                        <label for="resetcheck">Show &quot;Reset all filters&quot; button</label>
+                    </div>
+                </div>
+                <div id="nodefaults"></div>
+                <button class="btn btn-light" id="setdefaults" onclick="setDefaults()">Set current filters as default</button>
+                <div id="setd">Settings updated.</div>
+            </div>
+            <button class="btn btn-primary btn-lg" onclick="submit()">Save</button>
+        </div>
+    </div>
+</body>
+
+</html>
