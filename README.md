@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Clear Filters extension
 
-You can use the [editor on GitHub](https://github.com/KeshiaRose/Clear-Filters/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This extensions enables you to add a "clear all filters" button and/or a "reset all fitlers" button directly into your Tableau dashboard. Great for embedded dashboards that do not have the toolbar showing or for a mor intuitive interface
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Installing the Extension
 
-### Markdown
+### Download and install Tableau Desktop (with the Extensions API)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Download and install the Extensions API version of Tableau Desktop from the [Tableau Extensions API Developer Preview](https://prerelease.tableau.com) site. Under **Resources**, click **Extensions API Software Downloads**. 
 
-```markdown
-Syntax highlighted code block
+Current version: 18.0227.0818
 
-# Header 1
-## Header 2
-### Header 3
+### Download and install the Dynamic Parameter manifest file
 
-- Bulleted
-- List
+Download the Dynamic Parameter [manifest file](https://keshiarose.github.io/Clear-Filters/ClearFilters.trex).
 
-1. Numbered
-2. List
+# Using the Extension
+1.	Drag in a new Extension object to your dashboard
+2.	Find the manifest (.trex) file you downloaded above
+3.  Choose if you want to show a "clear all filters" button and/or a "reset all fitlers" button
+4.  If you show the "reset all filters" button, make sure to set the default filter settings by clicking "Set current filters as default"
+5.  Hit save to save settings
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KeshiaRose/Clear-Filters/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+To change the default settings at any time you can open the context menu for the extension and click "Congifure". Pressing the button "Update default filters" again will set the default filters to whatever is currently set.
