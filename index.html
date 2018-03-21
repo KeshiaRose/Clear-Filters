@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clear Filters</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Helvetica, sans-serif;
+            display: flex;
+            align-items: stretch;
+            flex-direction: column;
+        }
+        
+        .header {
+            color: #fff;
+            background-color: #5031a9;
+            background: linear-gradient(#454aa1, #5031a9);
+            height: 300px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .hc {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            margin: 0px auto;
+            max-width: 800px;
+            height: 100%;
+        }
+        
+        .hc p,
+        .hc h1 {
+            width: 100%;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            margin-top: 25px;
+        }
+        
+        .content {
+            flex: auto;
+            background-color: #f4f4f4;
+            width: 100%;
+        }
+        
+        .cc {
+            margin: 0px auto;
+            padding-top: 50px;
+            max-width: 800px;
+            height: 100%;
+        }
+        
+        .cc h2 {
+            border-bottom: #c5c5c5 1px solid;
+        }
+        
+        a {
+            color: #5031a9;
+        }
+        
+        a:hover {
+            color: #5031a9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="hc">
+            <h1>Clear Filters Extension</h1>
+            <p>An extension to add a 'clear all filters' button and/or a 'reset all filters' button to your Tableau dashboard.</p>
+            <div class="buttons">
+                <a href="https://github.com/KeshiaRose/Clear-Filters" class="btn btn-light">View on GitHub</a>
+                <a href="https://keshiarose.github.io/Clear-Filters/ClearFilters.trex" class="btn btn-light">Download Manifest File</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="cc">
+            <h2>Clear Filters Extension</h2>
+
+            <p>This extension enables you to add a "clear all filters" button and/or a "reset all filters" button directly into your Tableau dashboard. Great for embedded dashboards that do not have the toolbar showing or for a more intuitive interface.</p>
+
+            <h2>Installing the Extension</h2>
+
+            <p>Download and install the Extensions API version of Tableau Desktop from the <a href="https://prerelease.tableau.com">Tableau Extensions API Developer Preview</a> site. Under <strong>Resources</strong>, click <strong>Extensions API Software Downloads</strong>.</p>
+
+            <p>Current version: 18.0227.0818</p>
+
+            <p>Download the Clear Filter <a href="https://keshiarose.github.io/Clear-Filters/ClearFilters.trex">manifest file</a> and save it wherever you want.</p>
+
+            <h2>Using the Extension</h2>
+            <ol>
+                <li>Drag in a new Extension object to your dashboard.</li>
+                <li>Find the manifest (.trex) file you downloaded above.</li>
+                <li>Choose if you want to show a “clear all filters” button and/or a “reset all fitlers” button.</li>
+                <li>If you show the “reset all filters” button, make sure to set the default filter settings by clicking “Set current filters as default.”</li>
+                <li>Hit save to save settings.</li>
+            </ol>
+
+            <p>To change the default settings at any time you can open the context menu for the extension and click "Configure". Pressing the button “Update default filters” again will set the default filters to whatever is currently set.</p>
+        </div>
+    </div>
+</body>
+
+</html>
