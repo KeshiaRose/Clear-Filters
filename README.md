@@ -6,7 +6,7 @@ This extension enables you to add a "clear all filters" button and/or a "reset a
 
 Download and install the Extensions API version of Tableau Desktop from the [Tableau Extensions API Developer Preview](https://prerelease.tableau.com) site. Under **Resources**, click **Extensions API Software Downloads**. 
 
-Current version: 18.0322.2000
+Current version: 18.0411.1540
 
 Download the Clear Filter [manifest file](https://keshiarose.github.io/Clear-Filters/ClearFilters.trex) and save it wherever you want.
 
