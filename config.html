@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Filter Reset Configuration</title>
+    <title>Clear Filters Configuration</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -21,14 +21,14 @@
 
 <body>
     <div class="container">
-        <h1 class="heading">Filter Reset</h1>
+        <h1 class="heading">Clear Filters Extension</h1>
         <div class="section">
             <input type="checkbox" id="clearcheck" onclick="toggleClear()" />
             <label for="clearcheck">Show "Clear all filters" button</label>
         </div>
         <div class="section">
             <input type="checkbox" id="resetcheck" onclick="toggleReset()" />
-            <label for="resetcheck">Show "Reset all filters" button</label>
+            <label for="resetcheck">Show "Revert all filters" button</label>
             <div id="nodefaults"></div>
             <button class="btn btn-light" id="setdefaults" onclick="setDefaults()">Set current filters as default</button>
             <div id="setd">Settings updated.</div>

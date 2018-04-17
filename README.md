@@ -13,7 +13,7 @@ Download the Clear Filter [manifest file](https://keshiarose.github.io/Clear-Fil
 ## Using the Extension
 1.	Drag in a new Extension object to your dashboard.
 2.	Find the manifest (.trex) file you downloaded above.
-3.  Choose if you want to show a "clear all filters" button and/or a "reset all fitlers" button.
+3.  Choose if you want to show a "Clear all filters" button and/or a "Revert all filters" button.
 4.  If you show the "reset all filters" button, make sure to set the default filter settings by clicking "Set current filters as default."
 5.  Hit save to save settings.
 
