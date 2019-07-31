@@ -1,3 +1,4 @@
+![This repo is deprecated!!!](https://img.shields.io/badge/Status-Deprecated-Red)
 >**The version found in this repository is out of date. Please go to the [Extension Gallery](https://extensiongallery.tableau.com/products/29) to get the latest version.**
 
 # Clear Filters Extension
